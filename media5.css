@@ -1,0 +1,123 @@
+@media screen and (max-width : 600px) {
+    .nav ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .designer-image::before {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+
+    .about-section {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .designer-image {
+
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .about-details {
+
+        width: 100%;
+    }
+
+    .info-list {
+
+        flex-direction: column;
+
+        row-gap: 15px;
+    }
+
+    .info-list li {
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .service-card {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:771px) {
+    .service-card {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .service-card {
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .portfolio-item {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .portfolio-item {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .portfolio-item {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .stat-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-section {
+        width: 90%;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-section {
+        width: 90%;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-btn {
+        width: 100%;
+        align-self: center;
+    }
+}
